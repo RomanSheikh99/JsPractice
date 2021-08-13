@@ -1,0 +1,115 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <!-- title -->
+    <title>JS WebSite</title>
+
+    <!-- css stylesheet -->
+    <link rel="stylesheet" href="css/style.css">
+</head>
+<body>
+    <!-- header section start -->
+    <header id="header">
+        <div id="container">
+            <div class="menu">
+                <h1 id="logo">JavaScript</h1>
+                <ul>
+                    <li class="list-style">home</li>
+                    <li class="list-style">about</li>
+                    <li class="list-style">contact</li>
+                </ul>
+            </div>
+        </div>
+    </header>
+    <!-- header section End -->
+
+    <!-- button section start -->
+    <div class="btn-container">
+        <button id="red-btn" onclick="beRed()">red</button>
+        <button id="yellow-btn">yellow</button>
+        <button id="green-btn">green</button>
+        <button id="pink-btn">pink</button>
+        <button id="orange-btn">orange</button>
+        <button id="blue-btn">blue</button>
+        <button id="cream-btn">Cream</button>
+    </div>
+    <!-- button section start -->
+    
+    <!-- BOLG SECTION START -->
+    <section id="blog">
+        <article id="blog-post">
+            <h1>my sweet blog</h1>
+            <h3>author: <span>roman sheikh</span></h3>
+            <p>Lorem ipsum dolor sit amet consectetur, adipisicing elit. Modi obcaecati nihil, voluptatum dolorum sit omnis nisi reiciendis, magni inventore, ducimus suscipit ullam consequuntur delectus ratione aliquam? Quam fugiat, nisi nulla quos quisquam debitis aliquam? Ipsa minima saepe iusto. Vero dolorum nostrum saepe veniam asperiores quis quas adipisci! Veritatis amet odio molestias ducimus quam rerum! Magni ratione numquam soluta sed velit?</p>
+
+            <div class="comment-section">
+                <h1>All comments</h1>
+                <div id="All-comments">
+                    <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Est commodi tenetur neque aut incidunt libero magni omnis maxime, alias dolor.</p>
+                </div>
+                <div>
+                    <textarea id="comment-box" rows="4" cols="100" placeholder="Write a comment"></textarea>
+                    <button id="submit-comment">Comment</button>
+                </div>
+            </div>
+
+        </article>
+        <aside id="latest-blog">
+            <h1>today latest Blog</h1>
+            <div id="blog-item-section">
+                <p class="blog-item">Lorem, ipsum dolor.</p>
+                <p class="blog-item">Ratione, voluptatum architecto.</p>
+                <p class="blog-item">Laudantium, enim quae.</p>
+                <p class="blog-item">Rerum, minima et?</p>
+                <p class="blog-item">Eveniet, totam nihil?</p>
+                <p class="blog-item">Id, nemo nobis?</p>
+                <p class="blog-item">Officiis, praesentium quasi?</p>
+            </div>
+            <span id="add-item">Add New Item</span>
+        </aside>
+    </section>
+    <!-- BOLG SECTION END -->
+
+
+    <!-- delete section start -->
+    <section id="delate-section">
+        <h1>Delate this Text,,,,,,,,</h1>
+        <p id="delate-text">na na na amake delate koiro na ,,,,,</p>
+        <input type="text" name="" id="delate-conferm" placeholder="For delate this element you have to type delate">
+        <button id="delate-btn" disabled>Delate</button>
+    </section>
+    <!-- delete section End -->
+
+    <section id="bubol-section">
+        <div id="handler">
+            <h1>Event Bubble</h1>
+            <div id="dada">
+                <h2>Dadar Sompotti,,,</h2>
+                <ul id="dad">
+                    <li class="nati">Nati No.1</li>
+                    <li class="nati">Nati No.2</li>
+                    <li id="Click-nati" class="nati">Nati No.3</li>
+                    <li class="nati">Nati No.4</li>
+                    <li id="bobble-stop" class="nati">Nati No.5</li>
+                    <li class="nati">Nati No.6</li>
+                </ul>
+            </div>
+        </div>
+        <div id="board">
+            <h1>White board</h1>
+            <div id="board-dada"></div>
+            <div id="board-dad"></div>
+            <ul id="board-ul"></ul>
+            <span id="clr">Clear All</span>
+        </div>
+    </section>
+
+
+
+    <!-- JavaScript link -->
+    <script src="js/script.js"></script>
+</body>
+</html>

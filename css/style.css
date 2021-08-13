@@ -1,0 +1,258 @@
+@import url('https://fonts.googleapis.com/css2?family=Lato:wght@300;400;700;900&display=swap');
+* {
+    margin: 0;
+    padding: 0;
+    
+}
+body{
+    font-family: 'Lato', sans-serif;
+}
+div#container {
+    width: 94%;
+    margin: 0 auto;
+}
+
+.menu {
+    display: grid;
+    grid-template-columns: 1fr 2fr;
+}
+
+ul {
+    display: flex;
+    justify-content: flex-end;
+    align-items: center;
+}
+
+li.list-style {
+    list-style: none;
+    margin-left: 20px;
+    font-size: 20px;
+    text-transform: capitalize;
+    padding: 5px 10px;
+    color: #fff;
+}
+
+h1#logo {
+    font-size: 38px;
+    letter-spacing: 1px;
+    color: #fff;
+}
+
+header {
+    background-color: #7B00FF;
+    padding: 25px 0;
+}
+
+.btn-container {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+button {
+    background: #7B00FF;
+    border: none;
+    outline: none;
+    font-size: 18px;
+    color: #fff;
+    border-radius: 5px;
+    padding: 5px 10px;
+    margin: 20px 20px;
+    text-transform: uppercase;
+    cursor: grab;
+    transition: .5s;
+}
+
+button:hover {
+    transform: translateY(-5px);
+}
+
+article, aside{
+    background-color: antiquewhite;
+    padding: 20px;
+    border-radius: 10px;
+}
+
+section#blog {
+    width: 96%;
+    margin: 60px auto;
+    display: grid;
+    grid-template-columns: 3fr 1fr;
+    grid-gap: 20px;
+}
+
+article h1, aside h1 {
+    font-size: 26px;
+    text-transform: capitalize;
+    margin-bottom: 10px;
+}
+
+article h3 {
+    font-size: 12px;
+    text-transform: capitalize;
+    margin: 10px 0;
+}
+
+article h3 span {
+    color: red;
+}
+
+article p {
+    line-height: 1.5;
+}
+
+aside p {
+    font-size: 16px;
+    line-height: 1.6;
+    border-bottom: 1px solid #999;
+    cursor: pointer;
+}
+
+.comment-section h1 {
+    margin-top: 30px;
+    font-size: 18px;
+    color: #555;
+}
+
+.comment-section p {
+    font-size: 14px;
+    color: #666;
+    border-bottom: .5px solid #ddd;
+    margin-bottom: 30px;
+    padding-right: 200px;
+}
+
+textarea#comment-box {
+    width: 300px;
+    outline: none;
+    padding: 15px;
+    border: none;
+    border-radius: 10px;
+    font-size: 20px;
+}
+
+button#submit-comment {
+    background: #fff;
+    color: #000;
+    display: block;
+    margin: 15px 0;
+    padding: 10px 20px;
+    cursor: pointer;
+}
+
+
+section#delate-section {
+    margin:  80px 0;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    text-transform: capitalize;
+    line-height: 2;
+    font-size: 24px;
+}
+
+input#delate-conferm {
+    padding: 14px 10px;
+    text-align: center;
+    width: 360px;
+    font-size: 16px;
+    border-radius: 10px;
+    border: 1px solid #999;
+    outline: none;
+    margin-top: 20px;
+}
+
+button#delate-btn {
+    background: #b3afaf26;
+    color: #bbb;
+    cursor: none;
+}
+
+button#delate-btn:hover {
+    transform: translateY(0);
+}
+
+section#bubol-section {
+    width: 96%;
+    margin: 40px auto;
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    grid-gap: 20px;
+}
+
+div#handler, #board {
+    border: 2px solid #777;
+    padding: 20px;
+    border-radius: 5px;
+}
+
+ul#dad, ul#board-ul {
+    display: block;
+}
+
+li.nati{
+    margin: 10px 40px;
+}
+
+div#handler h1, #board h1 {
+    text-align: center;
+    margin-bottom: 20px;
+}
+#board-dada h2,
+#board-dad h4,
+ul#board-ul li{
+    margin: 10px 0;
+}
+#board-dad h4{
+    margin-left: 20px;
+}
+
+ul#board-ul li{
+    margin-left: 60px;
+}
+
+span#clr {
+    position: absolute;
+    top: 60px;
+    right: 40px;
+    border: 1px solid #999;
+    padding: 5px 10px;
+    border-radius: 4px;
+    background: #ddd;
+    cursor: pointer;
+    font-size: 16px;
+    letter-spacing: 1px;
+}
+#latest-blog{
+    position: relative;
+}
+#add-item{
+    position: absolute;
+    bottom: 40px;
+    left: 20px;
+    border: 1px solid #999;
+    padding: 5px 10px;
+    border-radius: 4px;
+    background: #ddd;
+    cursor: pointer;
+    font-size: 16px;
+    letter-spacing: 1px;
+}
+
+div#board {
+    position: relative;
+    overflow: overlay;
+    height: 280px;
+}
+
+div#All-comments {
+    overflow: overlay;
+    height: 260px;
+    margin-bottom: 26px;
+}
+
+div#blog-item-section {
+    overflow: overlay;
+    height: 600px;
+}
